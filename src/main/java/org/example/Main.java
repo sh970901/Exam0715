@@ -60,8 +60,9 @@ class ArrayList{
     }
 
     public void showAllValues() {
+        System.out.println("== 전체 데이터 출력 ==");
         for(int i=0; i<lastIndex; i++){
-            System.out.println(arr[i]);
+            System.out.println(i+" : "+ arr[i]);
         }
     }
 }
